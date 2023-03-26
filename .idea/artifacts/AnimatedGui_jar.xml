@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AnimatedGui:jar">
+    <output-path>$USER_HOME$/Serveur Minecraft test/plugins</output-path>
+    <root id="archive" name="AnimatedGui.jar">
+      <element id="module-output" name="AnimatedGui" />
+    </root>
+  </artifact>
+</component>
