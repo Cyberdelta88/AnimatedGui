@@ -1,0 +1,6 @@
+main: fr.cyberdelta88.AnimatedGui.Main
+name: AnimatedGui
+author: Cyberdelta88
+version: 0.1
+commands:
+  animatedgui:
