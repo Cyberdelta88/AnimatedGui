@@ -65,7 +65,7 @@ public class Cmdanimatedgui implements CommandExecutor {
             stack8.setItemMeta(stack8meta);
 
             ItemMeta stack9meta = stack9.getItemMeta();
-            stackmeta.setDisplayName(" ");
+            stack9meta.setDisplayName(" ");
             stack9.setItemMeta(stack9meta);
 
 
