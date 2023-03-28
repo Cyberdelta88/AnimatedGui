@@ -10,6 +10,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class Cmdanimatedgui implements CommandExecutor {
@@ -30,6 +31,42 @@ public class Cmdanimatedgui implements CommandExecutor {
             ItemStack stack7 = new ItemStack(Material.STAINED_GLASS_PANE, 1, (byte)10);
             ItemStack stack8 = new ItemStack(Material.STAINED_GLASS_PANE, 1, (byte)6);
             ItemStack stack9 = new ItemStack(Material.STAINED_GLASS_PANE, 1, (byte)4);
+
+            ItemMeta stackmeta = stack.getItemMeta();
+            stackmeta.setDisplayName(" ");
+            stack.setItemMeta(stackmeta);
+
+            ItemMeta stack2meta = stack2.getItemMeta();
+            stack2meta.setDisplayName(" ");
+            stack2.setItemMeta(stack2meta);
+
+            ItemMeta stack3meta = stack3.getItemMeta();
+            stack3meta.setDisplayName(" ");
+            stack3.setItemMeta(stack3meta);
+
+            ItemMeta stack4meta = stack4.getItemMeta();
+            stack4meta.setDisplayName(" ");
+            stack4.setItemMeta(stack4meta);
+
+            ItemMeta stack5meta = stack5.getItemMeta();
+            stack5meta.setDisplayName(" ");
+            stack5.setItemMeta(stack5meta);
+
+            ItemMeta stack6meta = stack6.getItemMeta();
+            stack6meta.setDisplayName(" ");
+            stack6.setItemMeta(stack6meta);
+
+            ItemMeta stack7meta = stack7.getItemMeta();
+            stack7meta.setDisplayName(" ");
+            stack7.setItemMeta(stack7meta);
+
+            ItemMeta stack8meta = stack8.getItemMeta();
+            stack8meta.setDisplayName(" ");
+            stack8.setItemMeta(stack8meta);
+
+            ItemMeta stack9meta = stack9.getItemMeta();
+            stackmeta.setDisplayName(" ");
+            stack9.setItemMeta(stack9meta);
 
 
 
